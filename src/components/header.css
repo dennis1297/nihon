@@ -1,0 +1,31 @@
+.h-container{
+    background-color: lightblue;
+    padding: 10px 25px;
+}
+
+.h-row:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-row:first-child .h-col:first-child a {
+    color: orangered;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.h-row:first-child .h-col:last-child button{
+    padding: 2px 15px;
+    margin : 0 10px;
+    border : none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.h-row:first-child .h-col:last-child button:active {
+    transform: translateY(-2px)
+}
